@@ -34,7 +34,6 @@ function Home() {
       const index = Math.floor(Math.random() * arr.length);
       newArray.push(arr[index]);
       newArray[newArray.length - 1].id = newArray.length - 1;
-      //console.log(arr[index]);
       arr.splice(index, 1);
     }
 
@@ -57,8 +56,6 @@ function Home() {
       }
     }
 
-    console.log("Selected len = " + selected.length);
-    console.log("Deck len = " + deck.length);
     if (selected.length === deck.length - 1) {
       setRandomDeck(RandomizeArray(deck));
       setSelected([]);

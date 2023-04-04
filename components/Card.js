@@ -15,12 +15,6 @@ function Card(props) {
             width={50}
             height={50}
           />
-          {/* <Image
-            src={`/images/${props.image}`}
-            alt={props.name}
-            width={50}
-            height={50}
-          /> */}
         </div>
         <div className={styles.cardBack}>
           <Image
