@@ -1,8 +1,8 @@
 # MemoryGame
 
-[Link to Vercel deployment]()
+[Link to Vercel deployment](https://memory-game-one-psi.vercel.app/)
 
-Memory Game is a React application developped as part of the fullstack web development bootcamp in La Capsule (Lyon, 2023).
+Memory Game is a React application developped as part of the fullstack web development bootcamp in La Capsule (Lyon, 2023).<br />
 It is a remake of a memory game where the player opens pairs of tiles. If the image of the tiles match, the tiles remain open, if not - the two tiles close.
 The game continues until all matching tiles open and then restarts.
 
